@@ -1,0 +1,27 @@
+header {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.board {
+  border: 1px solid black;
+  width: 80%;
+  height: 25rem;
+}
+th {
+  border: 1px solid black;
+}
+tr {
+  border: 1px solid black;
+}
+h1 {
+  display: block;
+  text-align: center;
+}
+.user-input {
+  display: block;
+  text-align: center;
+}
