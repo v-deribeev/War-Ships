@@ -6,41 +6,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <header>War Ships</header>
-      <section>
-        <div class="container">
-          <table class="board">
-            <tr>
-              <th>A1</th>
-              <th>A2</th>
-              <th>A3</th>
-              <th>A4</th>
-            </tr>
-            <tr>
-              <th>B1</th>
-              <th>B2</th>
-              <th>B3</th>
-              <th>B4</th>
-            </tr>
-            <tr>
-              <th>C1</th>
-              <th>C2</th>
-              <th>C3</th>
-              <th>C4</th>
-            </tr>
-          </table>
+    <header>War Ships</header>
+    <div class="main">
+      <div class="container">
+        <div class="row1">
+          <div class="row">A1</div>
+          <div class="row">A2</div>
+          <div class="row">A3</div>
         </div>
-      </section>
-      <section>
-        <h1>Choose a target !</h1>
-        <form class="user-input">
-          <label for="target">Type the coordinates:</label>
-          <input type="text" id="target" />
-          <button class="fire">Fire !</button>
-        </form>
-      </section>
-    </main>
+        <div class="row1">
+          <div class="row">B1</div>
+          <div class="row">B2</div>
+          <div class="row">B3</div>
+        </div>
+        <div class="row1">
+          <div class="row">C1</div>
+          <div class="row">C2</div>
+          <div class="row">C3</div>
+        </div>
+      </div>
+    </div>
+    <h1>Choose a target !</h1>
+    <form class="user-input">
+      <label for="target">Type the coordinates:</label>
+      <input type="text" id="target" />
+      <button class="fire">Fire !</button>
+    </form>
     <script src="app.js"></script>
   </body>
 </html>
